@@ -235,9 +235,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "Unichip"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "DacBoard.kicad_pro",
@@ -310,8 +308,16 @@
   },
   "sheets": [
     [
-      "6453828d-2667-4ef6-a737-cc6c7c043ab4",
+      "97d92972-feb7-4e17-b15f-d84cb84b9ff5",
       ""
+    ],
+    [
+      "10024e32-1d1a-4b3f-bc84-7dfbb88f0788",
+      "DAC 0"
+    ],
+    [
+      "196e344c-aa1c-4954-a934-e52daad880ff",
+      "DAC 1"
     ]
   ],
   "text_variables": {}
