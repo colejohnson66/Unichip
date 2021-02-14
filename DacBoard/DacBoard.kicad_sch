@@ -4485,6 +4485,7 @@
     )
   )
 
+
   (junction (at 15.24 195.58) (diameter 1.016) (color 0 0 0 0))
   (junction (at 17.78 149.86) (diameter 1.016) (color 0 0 0 0))
   (junction (at 25.4 139.7) (diameter 1.016) (color 0 0 0 0))
@@ -5955,12 +5956,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 58e6245b-7b74-4b20-8acc-647fe2031c73)
   )
-  (text "Generates an enable signal for DAC 1\nIf A2 is 0 or ~LDAC is 1, pin11 will be 1, disabling DAC 1\npin11 := !~LDAC and !A2"
+  (text "Generates an enable signal for DAC 1\nIf A2 is 0 or ~LDAC is 1, pin11 will be 1, disabling DAC 1\npin11 := !(!~LDAC and !A2)"
     (at 40.64 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea53172c-b279-44bb-94ef-bc0d1950a4aa)
   )
-  (text "Generates an enable signal for DAC 0\nIf A2 or ~LDAC is 1, pin8 will be 1, disabling DAC 0\npin8 := !~LDAC and A2"
+  (text "Generates an enable signal for DAC 0\nIf A2 or ~LDAC is 1, pin8 will be 1, disabling DAC 0\npin8 := !(!~LDAC and A2)"
     (at 43.18 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6359f948-d87e-446a-902e-6063abc05ad7)
