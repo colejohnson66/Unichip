@@ -1,0 +1,1 @@
+The Kicad schematic symbol and footprints are from https://github.com/ncarandini/KiCad-RP-Pico
