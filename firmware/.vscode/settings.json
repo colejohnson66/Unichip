@@ -3,5 +3,6 @@
         "cstdint": "cpp"
     },
     "files.insertFinalNewline": true,
-    "git.ignoreLimitWarning": true
+    "git.detectSubmodulesLimit": 1,
+    "git.detectSubmodules": false
 }
