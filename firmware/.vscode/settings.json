@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdint": "cpp"
+    },
+    "files.insertFinalNewline": true,
+    "git.ignoreLimitWarning": true
+}
