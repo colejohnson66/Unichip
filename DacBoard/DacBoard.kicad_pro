@@ -57,7 +57,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -111,11 +111,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "min_via_diameter": 0.39999999999999997
       },
       "track_widths": [
         0.0
@@ -367,6 +363,38 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "+15V",
+          "+3V3",
+          "+5V",
+          "-15V",
+          "/Vdac0",
+          "/Vdac1",
+          "/Vdac2",
+          "/Vdac3",
+          "/Vdac4",
+          "/Vdac5",
+          "/Vdac6",
+          "/Vdac7",
+          "GND"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -393,6 +421,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -407,6 +436,12 @@
       "version": 0
     },
     "net_format_name": "",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
